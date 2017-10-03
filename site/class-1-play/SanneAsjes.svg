@@ -1,0 +1,76 @@
+
+  <svg xmlns="http://www.w3.org/2000/svg">
+
+    <title>@SanneAsjes</title>
+<!-- achtergrond kleur van de svg -->
+
+    <style>
+      svg{
+        background-color: #353350;
+      }
+    </style>
+
+<!-- Dit zijn sterren op de achtergrond -->
+  <line stroke="LightGoldenRodYellow" stroke-width="1" x1="1100" y1="200" x2="1105" y2="205" />
+  <line stroke="LightGoldenRodYellow" stroke-width="1" x1="1100" y1="205" x2="1105" y2="200" />
+
+  <line stroke="LightGoldenRodYellow" stroke-width="1" x1="1050" y1="600" x2="1055" y2="605" />
+  <line stroke="LightGoldenRodYellow" stroke-width="1" x1="1050" y1="605" x2="1055" y2="600" />
+
+  <line stroke="LightGoldenRodYellow" stroke-width="1" x1="150" y1="70" x2="155" y2="75" />
+  <line stroke="LightGoldenRodYellow" stroke-width="1" x1="150" y1="75" x2="155" y2="70" />
+
+  <line stroke="LightGoldenRodYellow" stroke-width="1" x1="370" y1="470" x2="375" y2="475" />
+  <line stroke="LightGoldenRodYellow" stroke-width="1" x1="370" y1="475" x2="375" y2="470" />
+
+  <line stroke="gold" stroke-width="1" x1="1000" y1="50" x2="1005" y2="55" />
+  <line stroke="gold" stroke-width="1" x1="1000" y1="55" x2="1005" y2="50" />
+
+  <line stroke="gold" stroke-width="1" x1="400" y1="80" x2="405" y2="85" />
+  <line stroke="gold" stroke-width="1" x1="400" y1="85" x2="405" y2="80" />
+
+  <line stroke="gold" stroke-width="1" x1="30" y1="580" x2="35" y2="585" />
+  <line stroke="gold" stroke-width="1" x1="30" y1="585" x2="35" y2="580" />
+
+  <circle fill="SteelBlue" opacity="0.1" cx="1160" cy="540" r="60" />
+  <circle fill="SteelBlue" opacity="0.15" cx="1160" cy="540" r="50" />
+  <circle fill="SteelBlue" cx="1160" cy="540" r="40" />
+
+  <circle fill="IndianRed" cx="0" cy="0" r="80" />
+  <circle fill="IndianRed" opacity="0.15" cx="0" cy="0" r="100" />
+  <circle fill="IndianRed" opacity="0.1" cx="0" cy="0" r="120" />
+
+<!-- Dit is de basis van de maan -->
+    <g fill="#FCCA62">
+      <circle cx="650" cy="320" r="200" />
+    </g>
+
+<!-- Dit zijn de kraters -->
+    <g fill="#EEB34A" stroke="#C4973E" stroke-width="3">
+      <circle cx="620" cy="310" r="20" />
+      <circle cx="580" cy="220" r="50" />
+      <circle cx="760" cy="280" r="35" />
+      <circle cx="730" cy="440" r="25" />
+      <circle cx="570" cy="420" r="35" />
+      <circle cx="500" cy="350" r="8" />
+      <circle cx="700" cy="390" r="8" />
+      <circle cx="680" cy="180" r="9" />
+    </g>
+<!-- Dit is de orbit-->
+  <g stroke="white" stroke-width="1" stroke-dasharray="4,8" fill="transparent">
+      <circle cx="550" cy="310" r="350" />
+  </g>
+
+<!-- Dit is de raket-->
+    <ellipse fill="orange" cx="200" cy="330" rx="10" ry="20" />
+    <ellipse fill="yellow" cx="200" cy="330" rx="5" ry="10" />
+    <rect fill="red" x="190" y="280" rx="80" ry="8" width="20" height="50" />
+    <polygon fill="white" points="190,285 210,285 200,272 190,285" />
+    <circle fill="PowderBlue" cx="200" cy="300" r="5" />
+
+<!-- onder een kunstwerk hoort een naam -->
+    <text x="10" y="635" fill="pink" font-family="Open Sans" font-size="10px"> Sanne Asjes</text>
+    />
+
+
+  </svg>
