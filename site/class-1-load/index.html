@@ -1,0 +1,40 @@
+<!doctype html>
+<meta charset=utf8>
+<!--Update the title with your username:-->
+<title>@SanneAsjes</title>
+<meta content=width=device-width,initial-scale=1 name=viewport>
+
+<!--Link to d3 here:-->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<!--Keep this script here for now:-->
+<script src=https://cmda-fe3.github.io/course-17-18/check-class-1-load.js></script>
+
+<h1>Dinners</h1>
+
+<!--Add your code in this script:-->
+
+<script>
+  d3.json("index.json", function(err, data) {
+  console.log(data);
+  });
+
+  d3.csv("index.csv", function(err, data) {
+  console.log(data);
+  });
+
+//
+//   document.body.onload = addElement;
+//
+// function addElement () {
+//   // create a new div element
+//   // and give it some content
+//   var newDiv = document.createElement("div");
+//   var newContent = document.createTextNode(data);
+//   newDiv.appendChild(newContent); //add the text node to the newly created div.
+//
+//   // add the newly created element and its content into the DOM
+//   var currentDiv = document.getElementById("div1");
+//   document.body.insertBefore(newDiv, currentDiv);
+}
+</script>
