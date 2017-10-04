@@ -1,6 +1,6 @@
 # Hello World
 
-# Alt-Read Me
+Alt-Read Me
 
 ## Wat laat deze geweldige barchart zien?
 
@@ -11,7 +11,6 @@ Ik heb geprobeerd om in het volgende stukje **JavaScript** het een en ander aan 
 
 
 ## Hieronder de uren die ik geslapen heb per dag
-==================================================
 
 | Dag van de week | Uur geslapen | 
 | -------------   |:-------------:|
