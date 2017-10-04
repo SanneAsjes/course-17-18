@@ -17,8 +17,12 @@ Ik heb geprobeerd om in het volgende stukje **JavaScript** het een en ander aan 
       .attr("y", 6)
       .attr("dy", "0.71em")
       .attr("text-anchor", "end")
-      .text("Frequency");```
-      
+      .text("Frequency");
+      ```
+
+## Hieronder de uren die ik geslapen heb per dag
+==================================================
+
 | Dag van de week | Uur geslapen | 
 | -------------   |:-------------:|
 | Maandag  |  8.37 uur     |
