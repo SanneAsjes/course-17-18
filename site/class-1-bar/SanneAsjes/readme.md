@@ -9,16 +9,6 @@ Dit is helaas niet het geval omdat ik *geen* idee heb hoe ik de **y**-as moet aa
 
 Ik heb geprobeerd om in het volgende stukje **JavaScript** het een en ander aan te passen maar er gebeurt niet zoveel en toen kreeg ik *hoofdpijn* dus heb ik er het bijltje bij neer gegooid.
 
-```  g.append("g")
-      .attr("class", "axis axis--y")
-      .call(d3.axisLeft(y).ticks(10, "%"))
-    .append("text")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 6)
-      .attr("dy", "0.71em")
-      .attr("text-anchor", "end")
-      .text("Frequency");
-      ```
 
 ## Hieronder de uren die ik geslapen heb per dag
 ==================================================
@@ -32,3 +22,13 @@ Ik heb geprobeerd om in het volgende stukje **JavaScript** het een en ander aan 
 | Vrijdag  |  9.02 uur     |
 | Zaterdag |  9.48 uur     |
 | Zondag   |  9.13 uur     |
+
+   ```g.append("g")
+      .attr("class", "axis axis--y")
+      .call(d3.axisLeft(y).ticks(10, "%"))
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", "0.71em")
+      .attr("text-anchor", "end")
+      .text("Frequency");```
